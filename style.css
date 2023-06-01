@@ -42,13 +42,18 @@ body {
     text-align: center;
     font-size: 15px;
     padding-top: 20px;
+    
 }
 .back img{
     border-radius: 50%;
     width: 160px;
     height: 160px;
-   
+    transition: all .5s;
 }
+.back img :hover{
+    transform: scale(1.2) rotate(5deg);
+}   
+
 .hed{
     background-color: #000 ;
     display: table;
@@ -82,4 +87,15 @@ body {
    text-align: center; 
    color: #e1bb80;
    font-size:25px
+}
+.list{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    flex-flow: row;
+    list-style-type: none;
+}
+.tag{ background-color:#685634 ;
+margin: 10px;
+border-radius: 10%;
 }

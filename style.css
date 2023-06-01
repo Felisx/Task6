@@ -44,14 +44,14 @@ body {
     padding-top: 20px;
     
 }
-.back img{
+.imeg{
     border-radius: 50%;
     width: 160px;
     height: 160px;
     transition: all .5s;
 }
-.back img :hover{
-    transform: scale(1.2) rotate(5deg);
+.imeg:hover{
+    transform: scale(1.1) rotate(5deg);
 }   
 
 .hed{

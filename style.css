@@ -64,7 +64,7 @@ body {
 .content{
     display: flex;
     flex-flow: row;
-    margin: 0 auto;
+    margin: 10px auto;
     justify-content: space-around;
 }
 .card {

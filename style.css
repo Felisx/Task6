@@ -4,7 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     background-color: #000;
-    color: #54442b;
+    color: #ddb892;
+    text-decoration: none;
    
 }
 .navig {
@@ -14,6 +15,7 @@ body {
     padding: 10px;
     font-weight: 600;
     color: #0499ff;
+    
 }
 .menu {
     display: flex;
@@ -47,5 +49,37 @@ body {
     height: 160px;
    
 }
-
-
+.hed{
+    background-color: #000 ;
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.card {
+    padding: 20px;
+    background-color: #583101;
+    border-radius: 10px;
+    border-color: #a22c29;
+    max-width: 600px; 
+    margin: 10px;
+    border-bottom: 3px solid #7f5539;
+    border-right:1px solid #7f5539 ;
+}
+.cop {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.h22{
+   text-align: center; 
+   color: #e1bb80;
+   font-size:25px
+}

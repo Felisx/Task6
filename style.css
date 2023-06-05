@@ -99,3 +99,14 @@ body {
 margin: 10px;
 border-radius: 10%;
 }
+.cardhome{
+    padding: 20px;
+    background-color: #583101;
+    border-radius: 10px;
+    border-color: #a22c29;
+    max-width: 1000px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 3px solid #7f5539;
+    border-right:1px solid #7f5539 ;
+}

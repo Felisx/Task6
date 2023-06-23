@@ -61,6 +61,18 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
+.content2{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-flow: column-reverse;
+    align-items: center;
+    align-self: stretch;
+    margin-top:10px ; 
+    flex-flow: row nowrap;
+    align-content: flex-start;
+}
 .content{
     display: flex;
     flex-flow: row;
@@ -100,6 +112,7 @@ margin: 10px;
 border-radius: 10%;
 }
 .cardhome{
+    align-items: ;
     padding: 20px;
     background-color: #583101;
     border-radius: 10px;
